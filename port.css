@@ -31,58 +31,55 @@ footer {
 	color:white;
 	padding-bottom: 20px;
 }
-.cont{
-	display: flex;
-	display: -webkit-flex;
-	flex-wrap: wrap;
-	width: 100%;
-	align-items: center;
-	padding: 2%;
-	
 
-}
-.card{
-	
-	
-	background-color: #F3F5F7;
-	height: 200px;
 
-	
-	
+
+.tt1{
+
+   
+   background-image: url('tnt.jpg');
+   background-size: 100% 100%;
+   position: relative;
+   
+   padding-top:18% ; /* 1:1 Aspect Ratio */
 }
-.tt{
-	background-image: url('tnt.jpg');
-	background-size: 100% 210px;
-	height: 100%;
-	display: flex; 
-    justify-content: center; 
-    align-items: center;
-    color: white;
+.ecom1{
+
+   
+   background-image: url('ecom.jpeg');
+   background-size: 100% 100%;
+   position: relative;
+   
+   padding-top:18% ; /* 1:1 Aspect Ratio */
 }
-.ecom{
-	
-	background-image: url('ecom.jpeg');
-	background-size: 100% 210px;
-	height: 100%;
-	display: flex; 
-    justify-content: center; 
-    align-items: center;
-    color: white;
+.im1{
+
+   background-color: red;
+   background-image: url('inv.jpg');
+   background-size: 100% 100%;
+   position: relative;
+   
+   padding-top:18% ; /* 1:1 Aspect Ratio */
 }
-.im{
-	
-	background-image: url('inv.jpg');
-	background-size: 100% 210px;
-	height: 100%;
-	display: flex; 
-    justify-content: center; 
-    align-items: center;
-    color: white;
+
+
+
+
+
+.txt {
+   position:  absolute;
+   top: 30%;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   text-align: center;
+   
+   color: white;
 }
 
 
 @media screen and (min-width: 768px){
-	.card{
+	.ab{
 		float:left;
 		width: calc((100% - 20px)/3);
 		background-color: #F3F5F7;
@@ -91,7 +88,7 @@ footer {
 
 
 	}
-	.card:last-of-type{
+	.ab:last-of-type{
 		margin-right: 0;
 	}
 	
@@ -99,8 +96,9 @@ footer {
 
 }
 @media screen and (max-width: 768px){
-	.card{
-		width: 100%;
+	
+	.ab{
+		padding-top: 45%;
 	}
 	body{
 		line-height: 1.2em;
@@ -108,11 +106,11 @@ footer {
 		font-size: 1.5em;
 		
 	}
-	.card{
-	padding-bottom: 2%;
+	.ab{
+	margin-bottom: 2%;
     }
-    .card:last-of-type{
-	padding-bottom: 0%;
+    .ab:last-of-type{
+	margin-bottom: 0%;
     }
 
 
@@ -129,37 +127,10 @@ footer {
 
 	}
 
-@media screen and (min-width: 480px) and (max-width: 768px){
-	.card{
-		
-		width: 60%;
-		background-color: #F3F5F7;
-	
-	    margin-right: 20%;
-	    margin-left: 20%;
 
 
+@media screen and (width: 768px){
+	.ab{
+		padding-top: 18%;
 	}
-
-}
-@media screen and (min-width: 1200px){
-	.card{
-		float:left;
-		width: calc((100% - 40px)/3);
-		background-color: #F3F5F7;
-	
-	    margin-right: 20px;
-
-
-	}
-	.card:last-of-type{
-		margin-right: 0;
-	}
-	.cont{
-		padding: 4%;
-		max-width: 1300px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
 }
