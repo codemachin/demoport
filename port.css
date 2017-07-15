@@ -54,7 +54,7 @@ footer {
 }
 .im1{
 
-   background-color: red;
+   
    background-image: url('inv.jpg');
    background-size: 100% 100%;
    position: relative;
@@ -90,6 +90,12 @@ footer {
 	}
 	.ab:last-of-type{
 		margin-right: 0;
+	}
+
+	.container-fluid{
+		max-width: 1600px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	
