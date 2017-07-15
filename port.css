@@ -23,10 +23,13 @@ section {
 }
 footer {
 	text-align: center;
+	background: #181818;
 	
 }
 .footmar{
 	margin-top: 40px;
+	color:white;
+	padding-bottom: 20px;
 }
 .cont{
 	display: flex;
@@ -105,6 +108,12 @@ footer {
 		font-size: 1.5em;
 		
 	}
+	.card{
+	padding-bottom: 2%;
+    }
+    .card:last-of-type{
+	padding-bottom: 0%;
+    }
 
 
 }
@@ -148,6 +157,9 @@ footer {
 	}
 	.cont{
 		padding: 4%;
+		max-width: 1300px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	
 }
