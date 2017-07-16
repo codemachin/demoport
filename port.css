@@ -31,7 +31,6 @@ footer {
 	color:white;
 	padding-bottom: 20px;
 }
-<<<<<<< HEAD
 
 
 
@@ -76,64 +75,11 @@ footer {
    text-align: center;
    
    color: white;
-=======
-.cont{
-	display: flex;
-	display: -webkit-flex;
-	flex-wrap: wrap;
-	width: 100%;
-	align-items: center;
-	padding: 2%;
-	
-
-}
-.card{
-	
-	
-	background-color: #F3F5F7;
-	height: 200px;
-
-	
-	
-}
-.tt{
-	background-image: url('tnt.jpg');
-	background-size: 100% 210px;
-	height: 100%;
-	display: flex; 
-    justify-content: center; 
-    align-items: center;
-    color: white;
-}
-.ecom{
-	
-	background-image: url('ecom.jpeg');
-	background-size: 100% 210px;
-	height: 100%;
-	display: flex; 
-    justify-content: center; 
-    align-items: center;
-    color: white;
-}
-.im{
-	
-	background-image: url('inv.jpg');
-	background-size: 100% 210px;
-	height: 100%;
-	display: flex; 
-    justify-content: center; 
-    align-items: center;
-    color: white;
->>>>>>> 224a84931f0d9f12c32eddf2206bc8130a5e00b4
 }
 
 
 @media screen and (min-width: 768px){
-<<<<<<< HEAD
 	.ab{
-=======
-	.card{
->>>>>>> 224a84931f0d9f12c32eddf2206bc8130a5e00b4
 		float:left;
 		width: calc((100% - 20px)/3);
 		background-color: #F3F5F7;
@@ -142,7 +88,6 @@ footer {
 
 
 	}
-<<<<<<< HEAD
 	.ab:last-of-type{
 		margin-right: 0;
 	}
@@ -152,24 +97,14 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 	}
-=======
-	.card:last-of-type{
-		margin-right: 0;
-	}
->>>>>>> 224a84931f0d9f12c32eddf2206bc8130a5e00b4
 	
 	
 
 }
 @media screen and (max-width: 768px){
-<<<<<<< HEAD
 	
 	.ab{
 		padding-top: 48%;
-=======
-	.card{
-		width: 100%;
->>>>>>> 224a84931f0d9f12c32eddf2206bc8130a5e00b4
 	}
 	body{
 		line-height: 1.2em;
@@ -177,19 +112,11 @@ footer {
 		font-size: 1.5em;
 		
 	}
-<<<<<<< HEAD
 	.ab{
 	margin-bottom: 2%;
     }
     .ab:last-of-type{
 	margin-bottom: 0%;
-=======
-	.card{
-	padding-bottom: 2%;
-    }
-    .card:last-of-type{
-	padding-bottom: 0%;
->>>>>>> 224a84931f0d9f12c32eddf2206bc8130a5e00b4
     }
 
 
@@ -206,7 +133,6 @@ footer {
 
 	}
 
-<<<<<<< HEAD
 
 
 @media screen and (width: 768px){
@@ -214,39 +140,3 @@ footer {
 		padding-top: 18%;
 	}
 }
-=======
-@media screen and (min-width: 480px) and (max-width: 768px){
-	.card{
-		
-		width: 60%;
-		background-color: #F3F5F7;
-	
-	    margin-right: 20%;
-	    margin-left: 20%;
-
-
-	}
-
-}
-@media screen and (min-width: 1200px){
-	.card{
-		float:left;
-		width: calc((100% - 40px)/3);
-		background-color: #F3F5F7;
-	
-	    margin-right: 20px;
-
-
-	}
-	.card:last-of-type{
-		margin-right: 0;
-	}
-	.cont{
-		padding: 4%;
-		max-width: 1300px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
-}
->>>>>>> 224a84931f0d9f12c32eddf2206bc8130a5e00b4
